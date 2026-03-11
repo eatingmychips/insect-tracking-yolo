@@ -1,0 +1,14 @@
+ultralytics>=8.2.0
+torch           # or a specific CUDA build from pytorch.org
+torchvision
+opencv-python
+numpy
+matplotlib
+pillow
+PyYAML
+tqdm
+pandas
+seaborn
+
+# labeling tool
+labelImg
