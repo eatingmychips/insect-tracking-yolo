@@ -16,5 +16,5 @@ data/images/val/*
 !data/frames/.gitkeep
 !data/labels/train/.gitkeep
 !data/labels/val/.gitkeep
-data/images/train/.gitkeep
-data/images/val/.gitkeep
+!data/images/train/.gitkeep
+!data/images/val/.gitkeep
