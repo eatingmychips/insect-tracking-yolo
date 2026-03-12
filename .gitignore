@@ -2,6 +2,19 @@ __pycache__/
 *.py[cod]
 
 .venv/
-.venv/Lib/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc
 
-.data/raw_videos/
+# Ignore data folder contents but not the folders themselves
+data/raw_videos/*
+data/frames/*
+data/labels/train/*
+data/labels/val/*
+data/images/train/*
+data/images/val/*
+
+# Keep the .gitkeep placeholder files
+!data/raw_videos/.gitkeep
+!data/frames/.gitkeep
+!data/labels/train/.gitkeep
+!data/labels/val/.gitkeep
+data/images/train/.gitkeep
+data/images/val/.gitkeep
