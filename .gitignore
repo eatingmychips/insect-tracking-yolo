@@ -10,6 +10,9 @@ data/labels/train/*
 data/labels/val/*
 data/images/train/*
 data/images/val/*
+data/labels/*
+
+runs/*
 
 # Keep the .gitkeep placeholder files
 !data/raw_videos/.gitkeep
