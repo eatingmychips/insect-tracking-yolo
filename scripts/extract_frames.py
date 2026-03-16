@@ -2,7 +2,6 @@ import cv2
 import os
 from pathlib import Path
 
-#TODO: Move the photos that are in val (or actually the labels with their images, so we have an equal and understandable measure)
 video_dir = Path("data/raw_videos")
 out_root = Path("data/frames")
 out_root.mkdir(parents=True, exist_ok=True)
